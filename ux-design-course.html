@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UX Design Course in Pune | Learn UX Research & Design | Trivikra Tech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap-Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/result.css">
+</head>
+
+<body>
+    <div class="custom-cursor"></div>
+<div class="cursor-dot"></div>
+
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/index.html">
+                <img src="./assets/Logo-white.png" class="logo logo-white img-fluid" alt="Trivikra Tech Logo">
+
+                <img src="./assets/Logo-color.png" class="logo logo-color img-fluid"
+                    alt="Trivikra Tech UI UX Design Training">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <!-- DROPDOWN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#course" role="button">
+                            Courses
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/ui-design-course.html">UI Design</a></li>
+                            <li><a class="dropdown-item" href="/ux-design-course.html">UX Design</a></li>
+                            <li><a class="dropdown-item" href="/ui-ux-design-course.html">UI/UX Design</a></li>
+                            <li><a class="dropdown-item" href="/ui-ux-development-course.html">UI/UX Design & Development</a></li>
+                            <li><a class="dropdown-item" href="graphic-design-course.html">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="frontend-development-course.html">Web Development</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link text-white" href="/result.html">Results</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/blog.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/contact.html">Contact</a></li>
+                </ul>
+
+                <button class="btn btn-primary ms-lg-3 micro-btn" data-bs-toggle="modal" data-bs-target="#enrolModal">
+                    Enrol Now
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- pop up Form -->
+    <div class="modal fade" id="enrolModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Start Your Career Journey</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <input type="text" class="form-control mb-3" placeholder="Enter Name">
+                    <input type="email" class="form-control mb-3" placeholder="Enter Email">
+                    <input type="text" class="form-control mb-3" placeholder="Enter Contact No.">
+                    <input type="text" class="form-control mb-3" placeholder="Enter Education">
+
+                    <select class="form-select mb-3">
+                        <option>Select Course</option>
+                        <option>UI Design</option>
+                        <option>UX Design</option>
+                        <option>UI UX Design</option>
+                        <option>UI UX Design & Development</option>
+                        <option>Graphic Design</option>
+                        <option>Web Development</option>
+                    </select>
+
+                    <button class="btn btn-primary w-100 micro-btn">
+                        Submit
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ Hero Section -->
+    <section class="hero">
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="./assets/Trivikra Tech UI_UX Promo (1).mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <div class="container hero-content text-center">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-white">
+
+                <!-- Heading -->
+                <h1 class="hero-title fw-bold">
+                    Become a UI/UX Designer <br>
+                    in 90 Days 🚀
+                </h1>
+
+                <!-- Subtext -->
+                <p class="hero-subtext mt-3">
+                    Learn how real apps and websites are designed — from idea to final prototype.
+                    Build projects, create portfolio, and start your design career.
+                </p>
+
+                <!-- CTA -->
+                <div class="mt-4 d-flex justify-content-center flex-wrap gap-3">
+                    <a href="#course" class="btn btn-primary hero-btn">
+                        Explore Courses
+                    </a>
+
+                    <a href="#demo" class="hero-secondary-btn  btn-outline-light hero-btn-outline">
+                        Watch Demo
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="row mt-5 justify-content-center stats">
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>200+</h3>
+                        <small>Students Trained</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>50+</h3>
+                        <small>Real Projects</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>5+</h3>
+                        <small>Programs</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>98%</h3>
+                        <small>Satisfaction</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- What You Get Section -->
+    <section class="what-you-get py-5">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">What You Get</h2>
+                <p class="text-muted">Everything you need to become a professional UI Designer</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Item 1 -->
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-briefcase"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Internship Letter</h6>
+                            <p>Official internship certificate after course completion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Course Completion Certificate</h6>
+                            <p>Industry recognized certificate for UI Design course.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-play-circle"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Recording Access</h6>
+                            <p>Access to recorded sessions for revision anytime.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Practical Assignments</h6>
+                            <p>Hands-on UI design projects to build real skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Mentor Feedback</h6>
+                            <p>Personal guidance and design review from mentors.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Portfolio Website</h6>
+                            <p>Create your personal portfolio in our learning portal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box d-flex align-items-start">
+                        <div class="icon-box">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h6>Portfolio Guidance</h6>
+                            <p>Expert help to build a strong UI/UX design portfolio.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus  -->
+    <section class="course-explore py-5" id="syllabus">
+        <div class="container">
+
+            <h2 class="text-center mb-4 fw-bold">Explore our Courses</h2>
+
+            <!-- Course Tabs -->
+            <div class="text-center mb-5 course-tabs">
+
+                <a href="/ui-design-course.html" class="btn tab-btn active">UI Design</a>
+
+                <a href="/ux-design-course.html" class="btn tab-btn">UX Design</a>
+
+                <a href="/ui-ux-design-course.html" class="btn tab-btn">UI & UX Design</a>
+
+                <a href="/ui-ux-development-course.html" class="btn tab-btn">UI/UX Design & Development</a>
+
+                <a href="/graphic-design-course.html" class="btn tab-btn">Graphic Design</a>
+
+                <a href="/frontend-development-course.html" class="btn tab-btn">Web Development</a>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- LEFT SIDE -->
+                <div class="col-lg-8">
+
+                    <!-- What you'll Learn -->
+                    <div class="card learn-card mb-4">
+                        <div class="card-body">
+
+                            <h5 class="fw-bold mb-4">What you'll Learn</h5>
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <ul class="learn-list">
+                                        <li>Understand Product Design, B2B, SaaS and Enterprise UX systems</li>
+                                        <li>Conduct UX Research, User Interviews and Persona Creation</li>
+                                        <li>Design Information Architecture and complex product workflows</li>
+                                        <li>Create Wireframes for dashboards, forms and data-driven interfaces</li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <ul class="learn-list">
+                                        <li>Build scalable Design Systems and reusable UI components in Figma</li>
+                                        <li>Design analytics dashboards with charts, tables and KPI widgets</li>
+                                        <li>Create interactive prototypes and test user experiences</li>
+                                        <li>Develop a complete Product Design case study and professional portfolio</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h5 class="fw-bold mb-3">Course Curriculum Breakdown</h5>
+
+                    <!-- Curriculum -->
+                    <div class="accordion" id="courseAccordion">
+
+                        <!-- Week 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m1">
+                                    Week 1: Product Discovery & Enterprise UX Foundations
+                                </button>
+                            </h2>
+
+                            <div id="m1" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <strong>Goal:</strong> Understand how real products are designed and researched.
+
+                                    <ul>
+                                        <li>Introduction to Product Design & Enterprise UX</li>
+                                        <li>B2B, B2C and SaaS product ecosystems</li>
+                                        <li>Understanding multi-role systems (Admin, Staff, Customer)</li>
+                                        <li>User research and stakeholder interviews</li>
+                                        <li>Personas and Jobs-To-Be-Done framework</li>
+                                        <li>User journey mapping using FigJam</li>
+                                        <li>Competitive analysis and problem framing</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Create User Journey Map<br>
+                                    <strong>Mini Project:</strong> Research Report for Enterprise Product
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m2">
+                                    Week 2: Information Architecture & System Thinking
+                                </button>
+                            </h2>
+
+                            <div id="m2" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <strong>Goal:</strong> Structure complex business applications.
+
+                                    <ul>
+                                        <li>Information Architecture for enterprise applications</li>
+                                        <li>Navigation systems and module hierarchy</li>
+                                        <li>Structuring dashboards and business workflows</li>
+                                        <li>Understanding data entities and CRUD operations</li>
+                                        <li>Role Based Access Control (RBAC)</li>
+                                        <li>Mapping complex system workflows</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Enterprise App IA Diagram<br>
+                                    <strong>Mini Project:</strong> Workflow Map for CRM System
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m3">
+                                    Week 3: Wireframing & Interaction Design
+                                </button>
+                            </h2>
+
+                            <div id="m3" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Low, Mid and High Fidelity Wireframes</li>
+                                        <li>Designing enterprise dashboards</li>
+                                        <li>Forms, tables and data entry interfaces</li>
+                                        <li>Filters, sorting and bulk actions</li>
+                                        <li>Multi-step workflows and validation patterns</li>
+                                        <li>Collaborative wireframing using Figma and FigJam</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Dashboard Wireframe<br>
+                                    <strong>Mini Project:</strong> Customer Management Page Wireframe
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m4">
+                                    Week 4: Figma Mastery (Auto Layout & Components)
+                                </button>
+                            </h2>
+
+                            <div id="m4" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Figma interface and workflow</li>
+                                        <li>Layout grids and constraints</li>
+                                        <li>Auto Layout fundamentals</li>
+                                        <li>Nested Auto Layout systems</li>
+                                        <li>Responsive UI design</li>
+                                        <li>Components, variants and reusable patterns</li>
+                                        <li>Design tokens (color, typography, spacing)</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Responsive Dashboard Layout<br>
+                                    <strong>Mini Project:</strong> Component-based UI Layout
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 5 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m5">
+                                    Week 5: Design Systems & Component Libraries
+                                </button>
+                            </h2>
+
+                            <div id="m5" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Atomic Design methodology</li>
+                                        <li>Design tokens and semantic styles</li>
+                                        <li>Building scalable component libraries</li>
+                                        <li>Buttons, inputs, tables and modals</li>
+                                        <li>UI Kit creation and design documentation</li>
+                                        <li>Maintaining design consistency across modules</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Build UI Component Library<br>
+                                    <strong>Mini Project:</strong> Enterprise UI Kit
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 6 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m6">
+                                    Week 6: Data Driven Design & Dashboard Design
+                                </button>
+                            </h2>
+
+                            <div id="m6" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Designing analytics dashboards</li>
+                                        <li>Charts, graphs and KPI widgets</li>
+                                        <li>Interactive tables and filters</li>
+                                        <li>Data visualization best practices</li>
+                                        <li>Status indicators and visual hierarchy</li>
+                                        <li>Accessibility standards (WCAG)</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Analytics Dashboard Layout<br>
+                                    <strong>Mini Project:</strong> Data Visualization Dashboard
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 7 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m7">
+                                    Week 7: Prototyping, Testing & Product Strategy
+                                </button>
+                            </h2>
+
+                            <div id="m7" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Interactive prototyping in Figma</li>
+                                        <li>Smart animations and micro-interactions</li>
+                                        <li>Usability testing methods</li>
+                                        <li>Moderated and unmoderated testing</li>
+                                        <li>Feature prioritisation (RICE / MoSCoW)</li>
+                                        <li>Design to developer handoff</li>
+                                    </ul>
+
+                                    <strong>Exercise:</strong> Interactive Product Prototype<br>
+                                    <strong>Mini Project:</strong> Usability Testing Report
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Week 8 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m8">
+                                    Week 8: Capstone Project & Portfolio Development
+                                </button>
+                            </h2>
+
+                            <div id="m8" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+                                    <ul>
+                                        <li>Capstone: Enterprise CRM or Business System Design</li>
+                                        <li>Dashboard, Customer & Billing Modules</li>
+                                        <li>Reports & Analytics UI</li>
+                                        <li>UX Case Study Documentation</li>
+                                        <li>Behance & Dribbble Portfolio Publishing</li>
+                                        <li>LinkedIn Profile Optimization</li>
+                                        <li>Interview Preparation</li>
+                                    </ul>
+
+                                    <strong>Final Output:</strong><br>
+                                    Enterprise Case Study + Portfolio + Certification
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Tools -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#m9">
+                                    Tools That We Use
+                                </button>
+                            </h2>
+
+                            <div id="m9" class="accordion-collapse collapse" data-bs-parent="#courseAccordion">
+                                <div class="accordion-body">
+
+
+
+                                    <strong>Tools Used</strong>
+
+                                    <div class="row mt-3 text-center">
+
+                                        <div class="col-4 col-md-2">
+                                            <img src="./assets/Figma.png" class="tool img-fluid mb-2" alt="Figma">
+                                            <p class="small">Figma</p>
+                                        </div>
+
+                                        <div class="col-4 col-md-2">
+                                            <img src="./assets/Figjam.png" class="tool img-fluid mb-2" alt="Photoshop">
+                                            <p class="small">FigJam</p>
+                                        </div>
+
+                                        <div class="col-4 col-md-2">
+                                            <img src="./assets/XD.png" class="tool img-fluid mb-2" alt="Illustrator">
+                                            <p class="small">Adobe XD</p>
+                                        </div>
+
+                                        <div class="col-4 col-md-2">
+                                            <img src="./assets/chat-GPT.png" class="tool img-fluid mb-2" alt="VS Code">
+                                            <p class="small">Chat GPT</p>
+                                        </div>
+
+                                        <div class="col-4 col-md-2">
+                                            <img src="./assets/Google-stitch.png" class="tool img-fluid mb-2"
+                                                alt="GitHub">
+                                            <p class="small">Stitch</p>
+                                        </div>
+
+                                    </div>
+
+                                    <strong class="mt-3 d-block">Final Output:</strong>
+                                    Capstone Project + Behance Case Study + Certification
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Requirements -->
+                    <div class="accordion mt-4">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#req">
+                                    Requirements
+                                </button>
+                            </h2>
+                            <div id="req" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul class="learn-list">
+                                        <li>Basic computer skills and familiarity with using internet tools</li>
+                                        <li>Laptop or desktop capable of running design tools like Figma</li>
+                                        <li>Interest in UX design, product design, and digital experiences</li>
+                                        <li>No prior UX design experience required – beginners can start learning UX
+                                        </li>
+                                        <li>Suitable for students, fresh graduates, and working professionals</li>
+                                        <li>Willingness to practice UX research, design exercises, and real projects
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#desc">
+                                    Description
+                                </button>
+                            </h2>
+                            <div id="desc" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+
+                                    This UX design course helps you learn UX design from the fundamentals to advanced
+                                    product design skills used in modern digital products. The program introduces UX
+                                    research methods, UX writing basics, and practical UX design skills required to
+                                    become a UX designer or UX researcher.
+
+                                    <hr>
+
+                                    In this online UX design course, you will explore user research, information
+                                    architecture, wireframing, prototyping, and data-driven interface design using tools
+                                    like Figma and FigJam. The training focuses on real product workflows used in the
+                                    best UX design courses online.
+
+                                    <hr>
+
+                                    Throughout the course, you will work on real projects, build a professional UX case
+                                    study, and understand the key UX designer requirements needed for product and
+                                    enterprise design roles. By the end of the program, you will have the practical UX
+                                    design skills needed to start your journey as a UX designer.
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-4">
+
+                    <!-- Features -->
+                    <div class="feature-card mb-4">
+
+                        <h5 class="fw-bold mb-4">Course Features</h5>
+
+                        <ul class="feature-list">
+                            <li>Beginner to Advanced Product & UX Design Training</li>
+                            <li>8 Weeks Intensive Program (60+ Hours Practical Learning)</li>
+                            <li>Hands-on Training with Real Enterprise Product Scenarios</li>
+                            <li>Industry Tools: Figma, FigJam & AI Design Tools</li>
+                            <li>UX Research, Wireframing & Information Architecture</li>
+                            <li>Design Systems & Scalable Component Libraries</li>
+                            <li>Dashboard & Data Visualization Design</li>
+                            <li>Capstone Project: Complete CRM / Business System Design</li>
+                            <li>Portfolio Case Study Development for Product Designers</li>
+                            <li>Mentor Feedback, Certification & Internship Letter</li>
+                        </ul>
+
+                        <button class="btn buy-btn w-100 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#enrolModal">Enroll Now</button>
+
+                    </div>
+
+                    <!-- Chat Box -->
+                    <div class="chat-box">
+
+                        <h5 class="fw-bold mb-3">Chat With Us</h5>
+
+                        <div class="chat-body"></div>
+
+                        <div class="chat-input">
+                            <input type="text" placeholder="Enter Your Message here">
+                            <button>➤</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Demo -->
+    <section class="demo-section py-5" id="demo">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="mb-4">
+                <h2 class="fw-bold">Watch Free UX Design Course Demo Class</h2>
+
+                <p class=" demo-para">
+                    Watch a free demo from one of the best UX design courses online and see how modern digital products
+                    are designed.
+                    This session introduces UX research, UX writing, and essential UX design skills used by professional
+                    designers.
+                    If you want to learn UX, explore UX research courses, and understand how to become a UX designer,
+                    this demo will
+                    help you get started and show how to build a strong UX case study for your portfolio.
+                </p>
+            </div>
+            <!-- ================= MAIN DEMO BOX ================= -->
+            <div class="demo-box p-4">
+                <div class="row g-4">
+
+                    <!-- LEFT VIDEO -->
+                    <div class="col-lg-7">
+                        <div class="video-wrapper position-relative">
+
+                            <!-- MAIN VIDEO -->
+                            <video id="mainVideo" class="w-100 rounded-3">
+                                <source src="./assets/Trivikra Tech UI_UX Promo (1).mp4" type="video/mp4">
+                            </video>
+
+                            <!-- Center Play -->
+                            <div class="center-play" id="centerPlay">
+                                ▶
+                            </div>
+
+                            <!-- Gradient Overlay -->
+                            <div class="video-overlay"></div>
+
+                            <!-- Custom Controls -->
+                            <div class="custom-controls" id="controls">
+
+                                <button id="playPause">▶</button>
+
+                                <input type="range" id="progress" value="0">
+
+                                <span id="currentTime">0:00</span>
+
+                                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+
+                                <button id="fullscreen">⛶</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- RIGHT CONTENT -->
+                    <div class="col-lg-5">
+
+                        <h4 class="fw-bold mb-3">
+                            Start Learning UX Design Today
+                        </h4>
+
+                        <p class="demo-dec text-muted">
+                            This free class from our online UX design course explains the UX design process, UX
+                            researcher roles,
+                            and the key UX designer requirements needed to work on real digital products.
+                            Discover how designers research users, create better experiences, and build professional UX
+                            case studies
+                            while developing practical UX design skills.
+                        </p>
+
+
+                        <!-- Tools Row -->
+                        <h6 class="fw-bold mt-4">Tools You’ll Learn</h6>
+
+                        <div class="row mt-3 text-center">
+
+                            <div class="col-4 col-md-2">
+                                <img src="./assets/Figma.png" class="tool img-fluid mb-2" alt="Figma">
+                                <p class="small">Figma</p>
+                            </div>
+
+                            <div class="col-4 col-md-2">
+                                <img src="./assets/Figjam.png" class="tool img-fluid mb-2" alt="Photoshop">
+                                <p class="small">FigJam</p>
+                            </div>
+
+                            <div class="col-4 col-md-2">
+                                <img src="./assets/XD.png" class="tool img-fluid mb-2" alt="Illustrator">
+                                <p class="small">Adobe XD</p>
+                            </div>
+
+                            <div class="col-4 col-md-2">
+                                <img src="./assets/chat-GPT.png" class="tool img-fluid mb-2" alt="VS Code">
+                                <p class="small">Chat GPT</p>
+                            </div>
+
+                            <div class="col-4 col-md-2">
+                                <img src="./assets/Google-stitch.png" class="tool img-fluid mb-2" alt="GitHub">
+                                <p class="small">Stitch</p>
+                            </div>
+
+                        </div>
+
+                        <!-- CTA Buttons -->
+                        <div class="d-flex gap-3 mt-4 flex-wrap">
+
+                            <a href="#syllabus" class="btn explore-btn">
+                                Explore Courses
+                            </a>
+
+                            <a href="#enrolModal" class="btn micro-btn" data-bs-toggle="modal"
+                                data-bs-target="#enrolModal">
+                                Enrol Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Career & opportunities -->
+    <section class="career-section py-5">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="career text-center mb-5">
+                <h2 class="fw-bold">Career Opportunities in UX Design</h2>
+                <p class="text-muted">
+                    After completing the UX Design Course, you can work in product companies,
+                    startups, SaaS businesses, and design agencies. UX designers focus on
+                    understanding users, improving product usability, and creating better
+                    digital experiences across websites and applications.
+                </p>
+            </div>
+
+            <div class="row align-items-center">
+
+                <!-- Career Roles -->
+                <div class="col-lg-6 mb-4">
+
+                    <div class="career-card">
+                        <i class="bi bi-search"></i>
+                        <span>UX Researcher</span>
+                    </div>
+
+                    <div class="career-card">
+                        <i class="bi bi-diagram-3"></i>
+                        <span>UX Designer</span>
+                    </div>
+
+                    <div class="career-card">
+                        <i class="bi bi-arrow-left-right"></i>
+                        <span>Interaction Designer</span>
+                    </div>
+
+                    <div class="career-card">
+                        <i class="bi bi-journal-text"></i>
+                        <span>UX Writer</span>
+                    </div>
+
+                    <div class="career-card">
+                        <i class="bi bi-kanban"></i>
+                        <span>Product Designer</span>
+                    </div>
+
+                </div>
+
+                <!-- Salary Graph -->
+                <div class="col-lg-6">
+
+                    <h5 class="mb-3 fw-semibold">Average Salary Range (India)</h5>
+
+                    <div class="salary-bar">
+                        <span>Entry Level UX Designer</span>
+                        <div class="bar">
+                            <div class="fill level1"></div>
+                        </div>
+                        <small>₹4 LPA – ₹5 LPA</small>
+                    </div>
+
+                    <div class="salary-bar">
+                        <span>Mid Level UX Designer</span>
+                        <div class="bar">
+                            <div class="fill level2"></div>
+                        </div>
+                        <small>₹7 LPA – ₹9 LPA</small>
+                    </div>
+
+                    <div class="salary-bar">
+                        <span>Senior UX / Product Designer</span>
+                        <div class="bar">
+                            <div class="fill level3"></div>
+                        </div>
+                        <small>₹12 LPA+</small>
+                    </div>
+
+                    <p class="salary-note mt-3">
+                        Salaries may vary depending on UX research skills, portfolio case studies,
+                        company type (startup, product company, or SaaS), and experience level.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- reviews -->
+
+    <section class="student-section py-5">
+
+        <div class="container">
+
+            <h2 class="fw-bold mb-4">Student Experience</h2>
+
+            <!-- Slider Wrapper -->
+            <div class="slider">
+
+                <div class="slide-track">
+
+                    <!-- Card -->
+                    <div class="review-card">
+                        <h5>Onkar</h5>
+                        <span class="course">UI/UX Design & Development</span>
+                        <p>
+                            “Course ka structured flow & guidance really helped me understand
+                            real design workflow. Learning felt very practical instead of theoretical.”
+                        </p>
+                    </div>
+
+                    <div class="review-card">
+                        <h5>Parth</h5>
+                        <span class="course">UX Design</span>
+                        <p>
+                            “Training ka practical approach mujhe sabse zyada useful laga.
+                            Concepts sirf explain nahi kiye gaye, balki projects ke through implement karne ko mile.”
+                        </p>
+                    </div>
+
+                    <div class="review-card">
+                        <h5>Vaishnavi</h5>
+                        <span class="course">Graphic Design</span>
+                        <p>
+                            “I liked how the sessions were easy to understand.
+                            Hands-on practice helped build confidence while working on real projects.”
+                        </p>
+                    </div>
+
+                    <!-- Duplicate for Infinite Effect 🔥 -->
+                    <div class="review-card">
+                        <h5>Onkar</h5>
+                        <span class="course">UI/UX Design & Development</span>
+                        <p>
+                            “Course ka structured flow & guidance really helped me understand
+                            real design workflow. Learning felt very practical instead of theoretical.”
+                        </p>
+                    </div>
+
+                    <div class="review-card">
+                        <h5>Parth</h5>
+                        <span class="course">UX Design</span>
+                        <p>
+                            “Training ka practical approach mujhe sabse zyada useful laga.
+                            Concepts sirf explain nahi kiye gaye, balki projects ke through implement karne ko mile.”
+                        </p>
+                    </div>
+
+                    <div class="review-card">
+                        <h5>Vaishnavi</h5>
+                        <span class="course">Graphic Design</span>
+                        <p>
+                            “I liked how the sessions were easy to understand.
+                            Hands-on practice helped build confidence while working on real projects.”
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- connect banner -->
+<section class="connect d-flex align-items-center">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- LEFT -->
+            <div class="col-lg-6 text-center text-lg-start">
+
+                <h2 class="learn-text fw-bold text-white">
+                    Start Your UI/UX Journey <br>
+                    With Trivikra Tech
+                </h2>
+
+                <p class="text-light mt-2">
+                    Learn, build projects, and start your career in design 🚀
+                </p>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="col-lg-6 text-center text-lg-end mt-4 mt-lg-0">
+
+                <a href="https://wa.me/919270230778?text=Hi%20Trivikra%20Tech,%20I%20am%20interested%20in%20your%20services."
+                    target="_blank" class="btn whats-app">
+                    <i class="bi bi-whatsapp me-2"></i>
+                    Connect Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <!-- ================= FAQ SECTION ================= -->
+    <section class="faq-section py-5" id="faq">
+        <div class="container text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold mb-3">
+                Not Sure Which Course is Right for You?
+            </h2>
+
+            <p class="text-muted mb-5">
+                Get clarity on courses, career opportunities, and how you can start your UI/UX journey
+            </p>
+
+            <!-- TABS -->
+            <div class="faq-tabs d-flex flex-wrap justify-content-center gap-3 mb-5">
+
+                <button class="faq-tab active" data-category="before">
+                    Before Joining
+                </button>
+
+                <button class="faq-tab" data-category="after">
+                    After Learning
+                </button>
+
+                <button class="faq-tab" data-category="career">
+                    Career & Salary
+                </button>
+
+            </div>
+
+            <!-- FAQ -->
+            <div class="faq-wrapper mx-auto">
+                <div class="accordion custom-accordion" id="faqAccordion">
+
+                    <!-- ================= BEFORE ================= -->
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                I am confused – which course should I choose?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                If you are a beginner, UI/UX Design course is the best option as it covers both design
+                                and career opportunities.
+                                UI is for visuals, UX is for user experience, and combined gives complete understanding.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Is this course suitable for me?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, if you are a student, graduate, or someone looking to switch career into tech or
+                                design. No prior experience is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                I am from non-IT background. Can I still do this?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, many students come from commerce, arts, and non-technical backgrounds. UI/UX is
+                                beginner-friendly.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                Should I choose UI Design, UX Design, or Graphic Design?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                UI Design → Apps & websites
+                                UX Design → Research & user experience
+                                Graphic Design → Social media & branding
+                                For best career growth, UI/UX combined is recommended.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                Do I need coding knowledge before joining?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                No, coding is not required. You can start with design and later learn development if
+                                needed.
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- ADD -->
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq14">
+                                How do I know if UI/UX is the right career for me?
+                            </button>
+                        </h2>
+                        <div id="faq14" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                If you enjoy creativity, problem-solving, and working on apps or websites, UI/UX is a
+                                great fit. It does not require strong coding or technical background.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq15">
+                                Is UI/UX better than graphic design for career growth?
+                            </button>
+                        </h2>
+                        <div id="faq15" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                UI/UX offers better long-term growth and higher salary compared to graphic design,
+                                especially in tech companies and startups.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-category="before">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq16">
+                                Can I switch my career to UI/UX without experience?
+                            </button>
+                        </h2>
+                        <div id="faq16" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, many students successfully switch careers by learning UI/UX and building a strong
+                                portfolio with real projects.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= AFTER ================= -->
+
+                    <!-- ================= AFTER ================= -->
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                Will I be able to design real apps and websites?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                Yes, you will work on real-world projects like apps, websites, and dashboards during the
+                                course.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">
+                                Will I have a portfolio after completing the course?
+                            </button>
+                        </h2>
+                        <div id="faq7" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, you will build multiple projects that you can showcase to companies or clients.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq8">
+                                What tools will I learn?
+                            </button>
+                        </h2>
+                        <div id="faq8" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                You will learn Figma, design systems, prototyping, and modern UI/UX workflows.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq9">
+                                Will I get practical experience?
+                            </button>
+                        </h2>
+                        <div id="faq9" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, the course is focused on hands-on projects and real product design workflows.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NEW ADD -->
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq17">
+                                Will I be confident enough to work on real client projects?
+                            </button>
+                        </h2>
+                        <div id="faq17" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, working on real projects during the course helps you build confidence to handle
+                                client and company work.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq18">
+                                Can I start applying for jobs after completing the course?
+                            </button>
+                        </h2>
+                        <div id="faq18" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, once your portfolio is ready, you can start applying for internships and UI/UX
+                                design jobs.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq19">
+                                Will I understand real industry workflow?
+                            </button>
+                        </h2>
+                        <div id="faq19" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, you will learn how real companies work including research, wireframing, UI design,
+                                and testing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none" data-category="after">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#faq20">
+                                Can I design projects independently after this course?
+                            </button>
+                        </h2>
+                        <div id="faq20" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                Yes, you will gain enough skills and practice to design apps and websites on your own.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= CAREER ================= -->
+
+                <!-- ================= CAREER ================= -->
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq10">
+            What salary can I expect after completing different courses?
+        </button>
+    </h2>
+    <div id="faq10" class="accordion-collapse collapse show">
+       <div class="accordion-body">
+
+    <p>Salary depends on the course and skills:</p>
+
+    <div class="salary-list">
+
+        <div class="salary-row">
+            <span class="course">UI/UX Design</span>
+            <span class="salary">₹3–6 LPA</span>
+        </div>
+
+        <div class="salary-row">
+            <span class="course">UI Design</span>
+            <span class="salary">₹2.5–5 LPA</span>
+        </div>
+
+        <div class="salary-row">
+            <span class="course">UX Design</span>
+            <span class="salary">₹4–7 LPA</span>
+        </div>
+
+        <div class="salary-row">
+            <span class="course">Web Development</span>
+            <span class="salary">₹3–6 LPA</span>
+        </div>
+
+        <div class="salary-row">
+            <span class="course">Graphic Design</span>
+            <span class="salary">₹2–4 LPA</span>
+        </div>
+
+    </div>
+
+    <p class="mt-3">With experience, salaries grow significantly.</p>
+
+</div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq11">
+            Can I get a job after completing the course?
+        </button>
+    </h2>
+    <div id="faq11" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            Yes, with a strong portfolio and real project experience, you can apply for jobs in UI/UX, design, or frontend roles.
+        </div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq12">
+            Can I start freelancing after completing the course?
+        </button>
+    </h2>
+    <div id="faq12" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            Yes, many students start freelancing by working on website UI, app design, and dashboard projects.
+        </div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq13">
+            Is UI/UX a good long-term career?
+        </button>
+    </h2>
+    <div id="faq13" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            Yes, UI/UX is one of the fastest-growing fields with high demand in startups, IT companies, and product-based companies.
+        </div>
+    </div>
+</div>
+
+<!-- NEW ADD -->
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq21">
+            Which course has the highest career growth?
+        </button>
+    </h2>
+    <div id="faq21" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            UI/UX Design and UI/UX with Development have the highest growth because they combine design + practical implementation skills.
+        </div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq22">
+            What kind of companies can I work in after this course?
+        </button>
+    </h2>
+    <div id="faq22" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            You can work in startups, IT companies, product-based companies, design agencies, or even as a freelancer.
+        </div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq23">
+            Can I work remotely or from home in this field?
+        </button>
+    </h2>
+    <div id="faq23" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            Yes, UI/UX and web design roles offer many remote and work-from-home opportunities.
+        </div>
+    </div>
+</div>
+
+<div class="accordion-item d-none" data-category="career">
+    <h2 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq24">
+            How can I get my first job after completing the course?
+        </button>
+    </h2>
+    <div id="faq24" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            By building a strong portfolio, applying on job platforms, and showcasing your projects to companies and clients.
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ========Form ====== -->
+   <section class="contact-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+
+                    <h2 class="contact-heading">
+                        Start Learning UI UX Design Today
+                    </h2>
+
+                    <h5 class="contact-subheading mt-3">
+                        Tell us your goal and we will help you choose the right course.
+                    </h5>
+
+                    <p class="contact-text mt-3">
+                        Whether you want to become a UI UX designer, switch careers into tech,
+                        build a freelance portfolio, or learn Figma and user interface design properly —
+                        we have a program for you.
+                    </p>
+
+                    <div class="contact-info mt-4">
+                        <p>Email: <a href="mailto:Info@Trivikratech.com">Info@Trivikratech.com</a></p>
+                        <p>Phone: <a href="tel:+919270230778">+91 9270230778</a></p>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <button class="demo-btn" type="button">Book a Free Demo Class</button>
+
+                        <a href="https://wa.me/919270230778?text=Hi%20Trivikra%20Tech,%20I%20am%20interested%20in%20your%20UI%20UX%20design%20courses."
+                            target="_blank" class="btn whatsapp-btn">
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="col-lg-6">
+
+                    <form class="contact-form-card">
+
+                        <h4 class="mb-4">Tell Us What You're Looking For</h4>
+
+                        <!-- NAME -->
+                        <div class="mb-3">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" class="form-control" placeholder="Enter your full name"
+                                required>
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div class="mb-3">
+                            <label for="contactEmail">Your Email</label>
+                            <input type="email" id="contactEmail" class="form-control"
+                                placeholder="Enter your email address" required>
+                        </div>
+
+                        <!-- PHONE -->
+                        <div class="mb-3">
+                            <label for="contactPhone">Contact Number</label>
+                            <input type="tel" id="contactPhone" class="form-control"
+                                placeholder="Your WhatsApp or phone number" required>
+                        </div>
+
+                        <!-- EDUCATION -->
+                        <div class="mb-3">
+                            <label for="contactEducation">Your Education Background</label>
+                            <input type="text" id="contactEducation" class="form-control"
+                                placeholder="e.g. B.Com, BCA, BE, Arts, Other">
+                        </div>
+
+                        <!-- COURSE -->
+                        <div class="mb-3">
+                            <label for="contactService">Which Course Interests You?</label>
+                            <select id="contactService" class="form-select" required>
+                                <option value="">Select a Course</option>
+                                <option>UI Design</option>
+                                <option>UX Design</option>
+                                <option>UI/UX Design</option>
+                                <option>UI/UX Design & Development</option>
+                                <option>Front-end Development</option>
+                                <option>Graphic Design</option>
+                                <option>Not Sure — Help Me Choose</option>
+                            </select>
+                        </div>
+
+                        <!-- BUTTON -->
+                        <button type="button" class="btn submit-btn w-100">
+                            Send My Enquiry
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========Footer========= -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <div class="row footer-top">
+
+                <!-- LEFT BRAND -->
+                <div class="col-lg-4 col-md-6 mb-4">
+
+                    <h4 class="footer-title">Trivikra Tech Pvt. Ltd.</h4>
+
+                    <p class="footer-text mt-3">
+                        UI/UX Design, SaaS Dashboards, and Enterprise
+                        Product Experiences that Drive Growth.
+                    </p>
+
+                    <!-- Contact -->
+                    <div class="footer-contact mt-3">
+                        <p>Email:- Info@Trivikratech.com</p>
+                        <p>Phone:- +91 9270230778</p>
+                    </div>
+
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="col-lg-2 col-md-6 col-6 mb-4">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#course">Courses</a></li>
+                        <li><a href="/result.html">Results</a></li>
+                        <li><a href="/career.html">Career Support</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- COURSES -->
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
+                    <h6 class="footer-heading">Courses</h6>
+                    <ul class="footer-links">
+                        <li><a href="/ui-design-course.html">UI Design</a></li>
+                        <li><a href="/ux-design-course.html">UX Design</a></li>
+                        <li><a href="/ui-ux-design-course.html">UI/UX Design</a></li>
+                        <li><a href="/ui-ux-development-course.html">UI/UX Design & Development</a></li>
+                        <li><a href="/graphic-design-course.html">Graphic Design</a></li>
+                        <li><a href="/frontend-development-course.html">Front-End Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- INDUSTRIES -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="footer-heading">Industries We Serve</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">SaaS Products</a></li>
+                        <li><a href="#">B2B Solutions</a></li>
+                        <li><a href="#">Enterprise Platforms</a></li>
+                        <li><a href="#">Dashboard Applications</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="row footer-middle align-items-center">
+
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h6 class="footer-heading">Social Media</h6>
+                </div>
+
+                <div class="col-md-6 text-md-end footer-social">
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="row footer-bottom">
+                <div class="col text-center">
+                    <p>
+                        © 2025 Trivikra Tech Pvt. Ltd. | Expert in UI/UX design, product design,
+                        SaaS dashboards, enterprise UX, and responsive web solutions.
+                        Delivering faster time-to-market and measurable growth for businesses worldwide.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

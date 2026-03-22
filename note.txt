@@ -1,0 +1,29 @@
+<iframe src='https://my.spline.design/r4xbot-Z8V5NEthwgAEcoIZbAWxGtmL/' frameborder='0' width='100%' height='100%'></iframe>
+
+
+import Spline from '@splinetool/react-spline/next';
+
+export default function Home() {
+  return (
+    <main>
+      <Spline
+        scene="https://prod.spline.design/dPL1tIYieaWrJ45B/scene.splinecode" 
+      />
+    </main>
+  );
+}
+
+
+
+
+import Spline from '@splinetool/react-spline/next';
+
+export default function Home() {
+  return (
+    <main>
+      <Spline
+        scene="https://prod.spline.design/dPL1tIYieaWrJ45B/scene.splinecode" 
+      />
+    </main>
+  );
+}

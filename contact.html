@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Result Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap-Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/course.css">
+    <link rel="stylesheet" href="./css/result.css">
+</head>
+
+<body>
+
+    <div class="custom-cursor"></div>
+<div class="cursor-dot"></div>
+
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/index.html">
+                <img src="./assets/Logo-white.png" class="logo logo-white img-fluid" alt="Trivikra Tech Logo">
+
+                <img src="./assets/Logo-color.png" class="logo logo-color img-fluid"
+                    alt="Trivikra Tech UI UX Design Training">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <!-- DROPDOWN -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#course" role="button">
+                            Courses
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/ui-design-course.html">UI Design</a></li>
+                            <li><a class="dropdown-item" href="/ux-design-course.html">UX Design</a></li>
+                            <li><a class="dropdown-item" href="/ui-ux-design-course.html">UI/UX Design</a></li>
+                            <li><a class="dropdown-item" href="/ui-ux-development-course.html">UI/UX Design & Development</a></li>
+                            <li><a class="dropdown-item" href="graphic-design-course.html">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="frontend-development-course.html">Web Development</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link text-white" href="/result.html">Results</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/blog.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/contact.html">Contact</a></li>
+                </ul>
+
+                <button class="btn btn-primary ms-lg-3 micro-btn" data-bs-toggle="modal" data-bs-target="#enrolModal">
+                    Enrol Now
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- pop up Form -->
+    <div class="modal fade" id="enrolModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Start Your Career Journey</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <input type="text" class="form-control mb-3" placeholder="Enter Name">
+                    <input type="email" class="form-control mb-3" placeholder="Enter Email">
+                    <input type="text" class="form-control mb-3" placeholder="Enter Contact No.">
+                    <input type="text" class="form-control mb-3" placeholder="Enter Education">
+
+                    <select class="form-select mb-3">
+                        <option>Select Course</option>
+                        <option>UI Design</option>
+                        <option>UX Design</option>
+                        <option>UI UX Design</option>
+                        <option>UI UX Design & Development</option>
+                        <option>Graphic Design</option>
+                        <option>Web Development</option>
+                    </select>
+
+                    <button class="btn btn-primary w-100 micro-btn">
+                        Submit
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ Hero Section -->
+    <section class="hero">
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="./assets/Trivikra Tech UI_UX Promo (1).mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <div class="container hero-content text-center">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-white">
+
+                <!-- Heading -->
+                <h1 class="hero-title fw-bold">
+                    Become a UI/UX Designer <br>
+                    in 90 Days 🚀
+                </h1>
+
+                <!-- Subtext -->
+                <p class="hero-subtext mt-3">
+                    Learn how real apps and websites are designed — from idea to final prototype.
+                    Build projects, create portfolio, and start your design career.
+                </p>
+
+                <!-- CTA -->
+                <div class="mt-4 d-flex justify-content-center flex-wrap gap-3">
+                    <a href="#course" class="btn btn-primary hero-btn">
+                        Explore Courses
+                    </a>
+
+                    <a href="#demo" class="hero-secondary-btn  btn-outline-light hero-btn-outline">
+                        Watch Demo
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="row mt-5 justify-content-center stats">
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>200+</h3>
+                        <small>Students Trained</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>50+</h3>
+                        <small>Real Projects</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>5+</h3>
+                        <small>Programs</small>
+                    </div>
+
+                    <div class="col-6 col-md-3 stat-item">
+                        <h3>98%</h3>
+                        <small>Satisfaction</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- ========Form ====== -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+
+                    <h2 class="contact-heading">
+                        Start Learning UI UX Design Today
+                    </h2>
+
+                    <h5 class="contact-subheading mt-3">
+                        Tell us your goal and we will help you choose the right course.
+                    </h5>
+
+                    <p class="contact-text mt-3">
+                        Whether you want to become a UI UX designer, switch careers into tech,
+                        build a freelance portfolio, or learn Figma and user interface design properly —
+                        we have a program for you.
+                    </p>
+
+                    <div class="contact-info mt-4">
+                        <p>Email: <a href="mailto:Info@Trivikratech.com">Info@Trivikratech.com</a></p>
+                        <p>Phone: <a href="tel:+919270230778">+91 9270230778</a></p>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3 mt-4">
+                        <button class="demo-btn" type="button">Book a Free Demo Class</button>
+
+                        <a href="https://wa.me/919270230778?text=Hi%20Trivikra%20Tech,%20I%20am%20interested%20in%20your%20UI%20UX%20design%20courses."
+                            target="_blank" class="btn whatsapp-btn">
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="col-lg-6">
+
+                    <form class="contact-form-card">
+
+                        <h4 class="mb-4">Tell Us What You're Looking For</h4>
+
+                        <!-- NAME -->
+                        <div class="mb-3">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" class="form-control" placeholder="Enter your full name"
+                                required>
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div class="mb-3">
+                            <label for="contactEmail">Your Email</label>
+                            <input type="email" id="contactEmail" class="form-control"
+                                placeholder="Enter your email address" required>
+                        </div>
+
+                        <!-- PHONE -->
+                        <div class="mb-3">
+                            <label for="contactPhone">Contact Number</label>
+                            <input type="tel" id="contactPhone" class="form-control"
+                                placeholder="Your WhatsApp or phone number" required>
+                        </div>
+
+                        <!-- EDUCATION -->
+                        <div class="mb-3">
+                            <label for="contactEducation">Your Education Background</label>
+                            <input type="text" id="contactEducation" class="form-control"
+                                placeholder="e.g. B.Com, BCA, BE, Arts, Other">
+                        </div>
+
+                        <!-- COURSE -->
+                        <div class="mb-3">
+                            <label for="contactService">Which Course Interests You?</label>
+                            <select id="contactService" class="form-select" required>
+                                <option value="">Select a Course</option>
+                                <option>UI Design</option>
+                                <option>UX Design</option>
+                                <option>UI/UX Design</option>
+                                <option>UI/UX Design & Development</option>
+                                <option>Front-end Development</option>
+                                <option>Graphic Design</option>
+                                <option>Not Sure — Help Me Choose</option>
+                            </select>
+                        </div>
+
+                        <!-- BUTTON -->
+                        <button type="button" class="btn submit-btn w-100">
+                            Send My Enquiry
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+    <!-- ========Footer========= -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <div class="row footer-top">
+
+                <!-- LEFT BRAND -->
+                <div class="col-lg-4 col-md-6 mb-4">
+
+                    <h4 class="footer-title">Trivikra Tech Pvt. Ltd.</h4>
+
+                    <p class="footer-text mt-3">
+                        UI/UX Design, SaaS Dashboards, and Enterprise
+                        Product Experiences that Drive Growth.
+                    </p>
+
+                    <!-- Contact -->
+                    <div class="footer-contact mt-3">
+                        <p>Email:- Info@Trivikratech.com</p>
+                        <p>Phone:- +91 9270230778</p>
+                    </div>
+
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="col-lg-2 col-md-6 col-6 mb-4">
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#course">Courses</a></li>
+                        <li><a href="/result.html">Results</a></li>
+                        <li><a href="/career.html">Career Support</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- COURSES -->
+                <div class="col-lg-3 col-md-6 col-6 mb-4">
+                    <h6 class="footer-heading">Courses</h6>
+                    <ul class="footer-links">
+                        <li><a href="/ui-design-course.html">UI Design</a></li>
+                        <li><a href="/ux-design-course.html">UX Design</a></li>
+                        <li><a href="/ui-ux-design-course.html">UI/UX Design</a></li>
+                        <li><a href="/ui-ux-development-course.html">UI/UX Design & Development</a></li>
+                        <li><a href="/graphic-design-course.html">Graphic Design</a></li>
+                        <li><a href="/frontend-development-course.html">Front-End Development</a></li>
+                    </ul>
+                </div>
+
+                <!-- INDUSTRIES -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="footer-heading">Industries We Serve</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">SaaS Products</a></li>
+                        <li><a href="#">B2B Solutions</a></li>
+                        <li><a href="#">Enterprise Platforms</a></li>
+                        <li><a href="#">Dashboard Applications</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="row footer-middle align-items-center">
+
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h6 class="footer-heading">Social Media</h6>
+                </div>
+
+                <div class="col-md-6 text-md-end footer-social">
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-behance"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trivikratech">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- COPYRIGHT -->
+            <div class="row footer-bottom">
+                <div class="col text-center">
+                    <p>
+                        © 2025 Trivikra Tech Pvt. Ltd. | Expert in UI/UX design, product design,
+                        SaaS dashboards, enterprise UX, and responsive web solutions.
+                        Delivering faster time-to-market and measurable growth for businesses worldwide.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

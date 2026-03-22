@@ -1,0 +1,283 @@
+.course-tabs .tab-btn {
+    border-radius: 40px;
+    padding: 8px 18px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.tab-btn.active {
+    background: #1d3b6a;
+    color: white;
+}
+
+.learn-card {
+    border-radius: 15px;
+    border: 1px solid #dce2ff;
+}
+
+.learn-list {
+    list-style: none;
+    padding: 0;
+}
+
+.learn-list li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.learn-list li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #3b4bf2;
+}
+
+.feature-card {
+    background: #e9ecff;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    background: #213C72;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+    background: #2b4e95;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    transform: translateY(-3px);
+    box-shadow: (0, 0, 0, 0.2) 0px 10px 25px;
+}
+
+.chat-box {
+    border: 1px solid #eee;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.chat-body {
+    height: 200px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chat-input button {
+    border: none;
+    background: #ddd;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+
+
+.tool {
+    height: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.tool:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.accordion-body img {
+    transition: all 0.3s ease;
+}
+
+.accordion-body img:hover {
+    transform: scale(1.05);
+}
+
+
+.feature {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+}
+
+.list {
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+}
+
+
+
+
+
+/* New section  */
+/* .what-you-get {
+    background: #f8f9fa;
+} */
+
+.feature-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background: #1d3b6a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.feature-text h6 {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.feature-text p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+
+/* career opp */
+.career-section {
+    background: #213C72;
+    color: white;
+}
+
+.career-section h2 {
+    color: white;
+}
+
+/* Career Cards */
+
+.career p {
+    color: rgb(222, 222, 222) !important;
+    font-weight: 100;
+}
+
+.career-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.career-card i {
+    font-size: 22px;
+    color: #38bdf8;
+}
+
+.career-card:hover {
+    transform: translateX(6px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Salary Graph */
+
+/* Salary Bar Base */
+
+.salary-bar {
+    margin-bottom: 22px;
+}
+
+.salary-bar span {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.bar {
+    width: 100%;
+    height: 14px;
+    background: #1e293b;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    transition: width 1.2s ease;
+}
+
+/* Trigger Animation when section hovered */
+
+.career-section:hover .level1 {
+    width: 35%;
+}
+
+.career-section:hover .level2 {
+    width: 65%;
+}
+
+.career-section:hover .level3 {
+    width: 100%;
+}
+
+/* Colors */
+
+.level1 {
+    background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+}
+
+.level2 {
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+.level3 {
+    background: linear-gradient(90deg, #f59e0b, #ef4444);
+}
+
+/* Note text */
+
+.salary-note {
+    font-size: 14px;
+    color: #94a3b8;
+}
