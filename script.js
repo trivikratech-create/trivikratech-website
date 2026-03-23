@@ -593,3 +593,51 @@ document.getElementById("demoBtn").addEventListener("click", function () {
     }, 1200);
 
 });
+
+
+
+// courses popup
+const openBtns = document.querySelectorAll(".openPopup");
+const popup = document.getElementById("coursesPopup");
+const closeBtns = document.querySelectorAll(".closePopup");
+
+// OPEN
+openBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    popup.style.display = "block";
+    document.body.style.overflow = "hidden";
+  });
+});
+
+// CLOSE
+closeBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    popup.style.display = "none";
+    document.body.style.overflow = "auto";
+  });
+});
+
+
+
+// mobile fix
+
+document.querySelectorAll(".course-toggle").forEach(toggle => {
+
+  toggle.addEventListener("click", function(e) {
+
+    if (window.innerWidth < 992) {
+      e.preventDefault();
+
+      let menu = this.nextElementSibling;
+
+      // close others (optional)
+      document.querySelectorAll(".course-menu").forEach(m => {
+        if (m !== menu) m.classList.remove("open");
+      });
+
+      menu.classList.toggle("open");
+    }
+
+  });
+
+});

@@ -265,6 +265,41 @@ html {
 }
 
 
+/* nav mobile */
+/* MOBILE FIX */
+@media (max-width: 991px) {
+
+  /* remove bootstrap dropdown behavior */
+  .dropdown-menu {
+    padding: 0;
+    position: static !important;
+    transform: none !important;
+    inset: auto !important;
+    float: none;
+    width: 100%;
+    background: #213C72;
+    border: none;
+    border-radius: 8px;
+    /* margin-top: 10px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+  /* open state */
+  .dropdown-menu.open {
+    max-height: 500px;
+  }
+
+  .dropdown-item {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+
+}
+
+
 /*  Stats */
 .stats {
   margin: auto;
@@ -894,6 +929,83 @@ html {
 }
 
 
+/* ===== course popup ===== */
+/* Overlay */
+/* POPUP */
+.courses-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 9999;
+}
+
+/* OVERLAY */
+.popup-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+/* CONTENT */
+.popup-content {
+  position: relative;
+  background: #fff;
+  width: 90%;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 12px;
+  z-index: 2;
+}
+
+/* CLOSE */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* CARD */
+.popup-card {
+  display: block;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+.popup-card:hover {
+  background: #f8f9fa;
+  transform: translateY(-3px);
+}
+
+.popup-content {
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.popup-content {
+  animation: popupFade 0.3s ease;
+}
+
+@keyframes popupFade {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 
 /* =======Course========= */
@@ -941,7 +1053,7 @@ html {
 }
 
 .course-body h3 {
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px 0;
 }
 
@@ -1973,6 +2085,10 @@ video::-webkit-media-controls-timeline {
   .footer-title {
     font-size: 20px;
   }
+
+  .container, .container-md, .container-sm {
+    max-width: 900px;
+}
 }
 
 @media (max-width: 576px) {
@@ -1989,6 +2105,9 @@ video::-webkit-media-controls-timeline {
     font-size: 12px;
   }
 }
+
+
+
 
 
 

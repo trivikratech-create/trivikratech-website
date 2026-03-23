@@ -324,88 +324,111 @@
     <div class="cursor-dot"></div>
 
     <!-- ✅ Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top glass-nav py-4">
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav py-3">
         <div class="container">
+
+            <!-- LOGO -->
             <a class="navbar-brand d-flex align-items-center" href="/index.html">
-                <img src="./assets/Logo-white.png" class="logo logo-white img-fluid" alt="Trivikra Tech Logo">
-                <img src="./assets/Logo-color.png" class="logo logo-color img-fluid"
-                    alt="Trivikra Tech UI UX Design Training Institute">
+                <img src="./assets/Logo-white.png" class="logo logo-white img-fluid" alt="logo">
+                <img src="./assets/Logo-color.png" class="logo logo-color img-fluid" alt="logo">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
-                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- TOGGLER -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- NAV -->
             <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                <ul class="navbar-nav ms-auto text-center text-lg-start">
+
+                    <!-- COURSES -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#course" role="button"
-                            aria-expanded="false">
-                            Courses
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/ui-design-course.html">UI Design</a></li>
-                            <li><a class="dropdown-item" href="/ux-design-course.html">UX Design</a></li>
-                            <li><a class="dropdown-item" href="/ui-ux-design-course.html">UI/UX Design</a></li>
-                            <li><a class="dropdown-item" href="/ui-ux-development-course.html">UI/UX Design &
-                                    Development</a></li>
-                            <li><a class="dropdown-item" href="graphic-design-course.html">Graphic Design</a></li>
-                            <li><a class="dropdown-item" href="frontend-development-course.html">Web Development</a>
-                            </li>
-                        </ul>
+    <a class="nav-link dropdown-toggle text-white course-toggle" href="#" data-bs-toggle="dropdown">
+        Courses
+    </a>
+
+    <ul class="dropdown-menu course-menu">
+        <li><a class="dropdown-item" href="/ui-design-course.html">UI Design</a></li>
+        <li><a class="dropdown-item" href="/ux-design-course.html">UX Design</a></li>
+        <li><a class="dropdown-item" href="/ui-ux-design-course.html">UI/UX Design</a></li>
+        <li><a class="dropdown-item" href="/ui-ux-development-course.html">UI/UX Dev</a></li>
+        <li><a class="dropdown-item" href="/graphic-design-course.html">Graphic Design</a></li>
+        <li><a class="dropdown-item" href="/frontend-development-course.html">Web Dev</a></li>
+    </ul>
+</li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/result.html">Results</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link text-white" href="/result.html">Results</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="/blog.html">Blogs</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="/about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="/contact.html">Contact</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/blog.html">Blogs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/contact.html">Contact</a>
+                    </li>
+
                 </ul>
-                <button class="btn btn-primary ms-lg-3 micro-btn" data-bs-toggle="modal" data-bs-target="#enrolModal">
-                    Enrol Now
-                </button>
+
+                <!-- BUTTON -->
+                <div class="text-center mt-3 mt-lg-0 ms-lg-3">
+                    <button class="btn btn-primary micro-btn w-100 w-lg-auto" data-bs-toggle="modal"
+                        data-bs-target="#enrolModal">
+                        Enrol Now
+                    </button>
+                </div>
+
             </div>
         </div>
     </nav>
 
     <!-- ✅ Enrol Modal -->
     <div class="modal fade" id="enrolModal" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
 
-      <div class="modal-header">
-        <h3 class="modal-title">Start Your Design Career Today</h3>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
+                <div class="modal-header">
+                    <h3 class="modal-title">Start Your Design Career Today</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
 
-      <div class="modal-body">
+                <div class="modal-body">
 
-        <input type="text" id="modalName" class="form-control mb-3" placeholder="Your Full Name">
+                    <input type="text" id="modalName" class="form-control mb-3" placeholder="Your Full Name">
 
-        <input type="email" id="modalEmail" class="form-control mb-3" placeholder="Your Email Address">
+                    <input type="email" id="modalEmail" class="form-control mb-3" placeholder="Your Email Address">
 
-        <input type="tel" id="modalPhone" class="form-control mb-3" placeholder="Your Contact Number">
+                    <input type="tel" id="modalPhone" class="form-control mb-3" placeholder="Your Contact Number">
 
-        <input type="text" id="modalEducation" class="form-control mb-3" placeholder="Your Education Background">
+                    <input type="text" id="modalEducation" class="form-control mb-3"
+                        placeholder="Your Education Background">
 
-        <!-- ✅ FIXED id -->
-        <select id="modalCourse" class="form-select mb-3">
-          <option value="">Select a Course</option>
-          <option>UI Design</option>
-          <option>UX Design</option>
-          <option>UI UX Design</option>
-          <option>UI UX Design & Development</option>
-          <option>Graphic Design</option>
-          <option>Web Development</option>
-        </select>
+                    <!-- ✅ FIXED id -->
+                    <select id="modalCourse" class="form-select mb-3">
+                        <option value="">Select a Course</option>
+                        <option>UI Design</option>
+                        <option>UX Design</option>
+                        <option>UI UX Design</option>
+                        <option>UI UX Design & Development</option>
+                        <option>Graphic Design</option>
+                        <option>Web Development</option>
+                    </select>
 
-        <button class="btn btn-primary w-100 submit-btn" type="button">
-          Send My Enrolment Request
-        </button>
+                    <button class="btn btn-primary w-100 submit-btn" type="button">
+                        Send My Enrolment Request
+                    </button>
 
-      </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
     <!-- ✅ HERO SECTION -->
     <!-- H1 primary keyword: "Become a UI/UX Designer" | Subtext: "courses in ui ux design", "learn ui ux design", "figma" -->
@@ -717,9 +740,9 @@
                         </div>
                     </div>
 
-                   
+
                 </div>
-                
+
 
                 <div class="col-lg-4">
                     <h4 class="more-demo">More Free Demo Classes</h4>
@@ -795,15 +818,15 @@
                 </div>
 
                 <div class=" demo-text mt-4">
-                        <h4 class="fw-bold">See Exactly How We Teach UI/UX Design</h4>
-                        <p class="text-muted">
-                            This demo gives you a genuine look at how sessions run at Trivikra Tech.
-                            You will see how design problems are approached, what working in Figma actually looks like,
-                            and how students go from a blank canvas to a finished design — all in a single class.
-                            No slides-only teaching. No theory without application.
-                            Just real UI UX design, done step by step alongside you.
-                        </p>
-                    </div>
+                    <h4 class="fw-bold">See Exactly How We Teach UI/UX Design</h4>
+                    <p class="text-muted">
+                        This demo gives you a genuine look at how sessions run at Trivikra Tech.
+                        You will see how design problems are approached, what working in Figma actually looks like,
+                        and how students go from a blank canvas to a finished design — all in a single class.
+                        No slides-only teaching. No theory without application.
+                        Just real UI UX design, done step by step alongside you.
+                    </p>
+                </div>
 
             </div>
 
@@ -1626,7 +1649,7 @@
                     </div>
 
                     <div class="d-flex flex-wrap gap-3 mt-4">
-                        <button class="demo-btn" id="demoBtn" type="button" >Book a Free Demo Class</button>
+                        <button class="demo-btn" id="demoBtn" type="button">Book a Free Demo Class</button>
 
                         <a href="https://wa.me/919270230778?text=Hi%20Trivikra%20Tech,%20I%20am%20interested%20in%20your%20UI%20UX%20design%20courses."
                             target="_blank" class="btn whatsapp-btn">
