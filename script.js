@@ -641,3 +641,5 @@ document.querySelectorAll(".course-toggle").forEach(toggle => {
   });
 
 });
+
+
