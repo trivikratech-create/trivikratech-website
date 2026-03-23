@@ -322,7 +322,7 @@ html {
 }
 
 .stat-item small {
-  color: #666;
+  color: #ffffff;
 }
 
 /* ================= HERO ================= */
@@ -500,8 +500,8 @@ html {
 }
 
 .stats small {
-  font-weight: 100;
-  font-size: 14px;
+  font-weight: 200;
+  font-size: 20px;
   opacity: 0.8;
 }
 

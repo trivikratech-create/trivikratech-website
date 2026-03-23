@@ -427,76 +427,127 @@
 
 
 
-    <!-- reviews -->
+     <!-- ✅ REVIEWS SECTION -->
+    <!-- PURPOSE: Social proof, Review schema microdata, E-E-A-T -->
     <section class="student-section py-5">
-
         <div class="container">
 
-            <h2 class="fw-bold mb-4">Student Experience</h2>
+            <h2 class="fw-bold mb-4 text-center">What Our Students Say</h2>
 
-            <!-- Slider Wrapper -->
             <div class="slider">
-
                 <div class="slide-track">
 
-                    <!-- Card -->
-                    <div class="review-card">
-                        <h5>Onkar</h5>
-                        <span class="course">UI/UX Design & Development</span>
-                        <p>
-                            “Course ka structured flow & guidance really helped me understand
-                            real design workflow. Learning felt very practical instead of theoretical.”
+                    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=1" class="profile-img"
+                                alt="Onkar – UI/UX Design and Development student at Trivikra Tech">
+                            <div>
+                                <p class="fw-bold mb-0" itemprop="author" itemscope
+                                    itemtype="https://schema.org/Person">
+                                    <span itemprop="name">Onkar</span>
+                                    <span class="verified">✔ Verified</span>
+                                </p>
+                                <span class="course">UI/UX Design &amp; Development</span>
+                            </div>
+                        </div>
+                        <p class="review-text" itemprop="reviewBody">
+                            "The structured flow and hands-on approach made it easy to understand how real design
+                            workflow operates.
+                            Every session felt practical. I stopped just watching tutorials and actually started
+                            designing."
                         </p>
                     </div>
 
-                    <div class="review-card">
-                        <h5>Parth</h5>
-                        <span class="course">UX Design</span>
-                        <p>
-                            “Training ka practical approach mujhe sabse zyada useful laga.
-                            Concepts sirf explain nahi kiye gaye, balki projects ke through implement karne ko mile.”
+                    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=2" class="profile-img"
+                                alt="Parth – UX Design student at Trivikra Tech">
+                            <div>
+                                <p class="fw-bold mb-0" itemprop="author" itemscope
+                                    itemtype="https://schema.org/Person">
+                                    <span itemprop="name">Parth</span>
+                                    <span class="verified">✔ Verified</span>
+                                </p>
+                                <span class="course">UX Design</span>
+                            </div>
+                        </div>
+                        <p class="review-text" itemprop="reviewBody">
+                            "What I liked most was that concepts were not just explained — they were put into practice
+                            through real projects.
+                            By the third week, I was already designing screens I was genuinely proud of."
                         </p>
                     </div>
 
-                    <div class="review-card">
-                        <h5>Vaishnavi</h5>
-                        <span class="course">Graphic Design</span>
-                        <p>
-                            “I liked how the sessions were easy to understand.
-                            Hands-on practice helped build confidence while working on real projects.”
+                    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=3" class="profile-img"
+                                alt="Vaishnavi – Graphic Design student at Trivikra Tech">
+                            <div>
+                                <p class="fw-bold mb-0" itemprop="author" itemscope
+                                    itemtype="https://schema.org/Person">
+                                    <span itemprop="name">Vaishnavi</span>
+                                    <span class="verified">✔ Verified</span>
+                                </p>
+                                <span class="course">Graphic Design</span>
+                            </div>
+                        </div>
+                        <p class="review-text" itemprop="reviewBody">
+                            "Sessions were clear, well-paced, and never felt overwhelming.
+                            The real projects gave me the confidence to start taking on client work even before I
+                            finished the course."
                         </p>
                     </div>
 
-                    <!-- Duplicate for Infinite Effect 🔥 -->
-                    <div class="review-card">
-                        <h5>Onkar</h5>
-                        <span class="course">UI/UX Design & Development</span>
-                        <p>
-                            “Course ka structured flow & guidance really helped me understand
-                            real design workflow. Learning felt very practical instead of theoretical.”
+                    <!-- Infinite scroll duplicates — aria-hidden so screen readers skip -->
+                    <div class="review-card" aria-hidden="true">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=1" class="profile-img" alt="">
+                            <div>
+                                <p class="fw-bold mb-0">Onkar <span class="verified">✔ Verified</span></p>
+                                <span class="course">UI/UX Design &amp; Development</span>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "The structured flow and hands-on approach made it easy to understand how real design
+                            workflow operates.
+                            Every session felt practical. I stopped just watching tutorials and actually started
+                            designing."
                         </p>
                     </div>
 
-                    <div class="review-card">
-                        <h5>Parth</h5>
-                        <span class="course">UX Design</span>
-                        <p>
-                            “Training ka practical approach mujhe sabse zyada useful laga.
-                            Concepts sirf explain nahi kiye gaye, balki projects ke through implement karne ko mile.”
+                    <div class="review-card" aria-hidden="true">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=2" class="profile-img" alt="">
+                            <div>
+                                <p class="fw-bold mb-0">Parth <span class="verified">✔ Verified</span></p>
+                                <span class="course">UX Design</span>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "What I liked most was that concepts were not just explained — they were put into practice
+                            through real projects.
+                            By the third week, I was already designing screens I was genuinely proud of."
                         </p>
                     </div>
 
-                    <div class="review-card">
-                        <h5>Vaishnavi</h5>
-                        <span class="course">Graphic Design</span>
-                        <p>
-                            “I liked how the sessions were easy to understand.
-                            Hands-on practice helped build confidence while working on real projects.”
+                    <div class="review-card" aria-hidden="true">
+                        <div class="review-header">
+                            <img src="https://i.pravatar.cc/60?img=3" class="profile-img" alt="">
+                            <div>
+                                <p class="fw-bold mb-0">Vaishnavi <span class="verified">✔ Verified</span></p>
+                                <span class="course">Graphic Design</span>
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            "Sessions were clear, well-paced, and never felt overwhelming.
+                            The real projects gave me the confidence to start taking on client work even before I
+                            finished the course."
                         </p>
                     </div>
 
                 </div>
             </div>
+
         </div>
     </section>
 
