@@ -567,3 +567,29 @@ function showToast(message) {
 
   setTimeout(() => toast.remove(), 3000);
 }
+
+
+// Form Trigger effect
+document.getElementById("demoBtn").addEventListener("click", function () {
+    
+    const formSection = document.getElementById("contactFormSection");
+
+    // Smooth scroll
+    formSection.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+    // Focus input
+    setTimeout(() => {
+        document.getElementById("contactName").focus();
+    }, 600);
+
+    // 🔥 Animation trigger
+    formSection.classList.add("highlight-form");
+
+    setTimeout(() => {
+        formSection.classList.remove("highlight-form");
+    }, 1200);
+
+});
