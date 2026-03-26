@@ -10,6 +10,45 @@ html {
 }
 
 
+/* download button */
+.download-btn {
+  margin-top: 16px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+
+  border-radius: 8px;
+  padding: 12px;
+
+  font-size: 16px;
+  font-weight: 300;
+
+  text-align: center;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* 🔥 Hover Lift + Shadow */
+.download-btn:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  background: #213C72;
+  color: #fff;
+  border-color: #213C72;
+}
+
+/* ⚡ Click (Press Effect) */
+.download-btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 
 
 
@@ -388,7 +427,7 @@ html {
 }
 
 .hold-content {
-  max-width: 870px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
@@ -401,7 +440,7 @@ html {
 .hero-subtext {
   font-size: 16px;
   color: #ddd;
-  max-width: 700px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -1458,61 +1497,7 @@ video::-webkit-media-controls-timeline {
 
 
 
-/* chat bot */
-.chatbot-box {
-  background: white;
-  padding: 18px;
 
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.chat-messages {
-  flex: 1;
-  max-height: 200px;
-  overflow-y: auto;
-  margin-bottom: 10px;
-  font-size: 13px;
-}
-
-.bot-message {
-  background: #f1f1f1;
-  padding: 8px 10px;
-
-  margin-bottom: 6px;
-}
-
-.user-message {
-  background: #213C72;
-  color: white;
-  padding: 8px 10px;
-
-  margin-bottom: 6px;
-  text-align: right;
-}
-
-.chat-input-area {
-  display: flex;
-  gap: 6px;
-}
-
-.chat-input-area input {
-  flex: 1;
-
-  border: 1px solid #ddd;
-  padding: 6px 10px;
-  font-size: 13px;
-}
-
-.chat-input-area button {
-  background: #213C72;
-  border: none;
-  color: white;
-
-  padding: 6px 12px;
-  cursor: pointer;
-}
 
 /* MORE DEMOS */
 .more-demos {
