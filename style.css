@@ -10,6 +10,193 @@ html {
 }
 
 
+/* ================= PREMIUM ACCORDION (UX COURSE STYLE) ================= */
+
+/* Wrapper spacing */
+.accordion-item {
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+/* Hover card lift */
+.accordion-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= BUTTON ================= */
+
+.accordion-button {
+    background: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 18px 20px;
+    border-radius: 16px !important;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+/* Remove bootstrap ugly focus */
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Hover */
+.accordion-button:hover {
+    background: #f8f9ff;
+}
+
+/* ACTIVE STATE 🔥 */
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(135deg, #213C72, #ffff);
+    color: #ffffff;
+}
+
+/* ================= ICON ANIMATION ================= */
+
+.accordion-button::after {
+    filter: brightness(0.5);
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg) scale(1.1);
+    filter: brightness(1.5);
+}
+
+/* ================= BODY ================= */
+
+.accordion-body {
+    background: #f9faff;
+    padding: 20px 22px;
+    font-size: 15px;
+    line-height: 1.7;
+    border-top: 1px solid #eee;
+    
+    /* smooth open animation */
+    animation: smoothFade 0.4s ease;
+}
+
+/* Animation */
+@keyframes smoothFade {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ================= LIST STYLING ================= */
+
+.accordion-body ul {
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.accordion-body ul li {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+/* Custom bullet */
+.accordion-body ul li::marker {
+    color: #6366f1;
+}
+
+/* ================= WEEK LABEL (SYLLABUS LOOK 🔥) ================= */
+
+#courseAccordion .accordion-button::before {
+    content: "📘";
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* ================= ACTIVE BORDER GLOW ================= */
+
+.accordion-button:not(.collapsed) {
+    box-shadow: inset 0 -2px 0 rgba(255,255,255,0.2);
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+    .accordion-button {
+        font-size: 14px;
+        padding: 14px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+}
+
+/* ================= FAQ TAB BUTTON ================= */
+
+.faq-tab {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.faq-tab:hover {
+    background: #eef2ff;
+    transform: scale(1.05);
+}
+
+/* Active Tab */
+.faq-tab.active {
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    border: none;
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+}
+
+/* ================= ACCORDION CARD EFFECT ================= */
+
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Hover card effect */
+.accordion-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+/* ================= MOBILE OPTIMIZATION ================= */
+
+@media (max-width: 768px) {
+    .accordion-button {
+        font-size: 14px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+}
+
+
+/* ui design page  */
+.what-content{
+  margin: 0 10px;
+}
+
 /* download button */
 .download-btn {
   margin-top: 16px;
@@ -18,7 +205,7 @@ html {
   overflow: hidden;
 
   border: 1px solid #000;
-  background: #fff;
+  background: #e9ecff;
   color: #000;
 
   border-radius: 8px;
@@ -775,6 +962,7 @@ html {
 }
 
 .micro-btn:hover {
+  color: white;
   background: #2b4e95;
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
